@@ -11,7 +11,7 @@ This project is a Results Summary Component built using HTML and CSS. It feature
 ## Demo
 Explore the live demo of the project:
 
-[View Live Demo]()
+[View Live Demo](https://rofida-abdelkader.github.io/Frontend-Mentor-Challenge-Three/)
 
 ## Technologies Used
 - **HTML**: For semantic and accessible markup.
