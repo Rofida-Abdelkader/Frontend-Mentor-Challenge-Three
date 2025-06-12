@@ -1,0 +1,239 @@
+:root {
+  --main-color: #6743ff;
+  --background-color: #ecf3fb;
+  --reaction: #fff6f7;
+  --memory: #fffaf4;
+  --verbal: #f2fdf9;
+  --visual: #f4f4fe;
+  --buttom-befor: #303b59;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.desgin {
+  background-color: var(--background-color);
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.desgin .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /**/
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 100vh;
+}
+.desgin .container .box1 {
+  background-image: linear-gradient(to top, #412dda, #5a4ae6, #6743ff);
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 450px;
+  height: 480px;
+  justify-items: center;
+  border-radius: 20px;
+  z-index: 1;
+}
+.desgin .container .box1 .text h3 {
+  color: rgba(255, 255, 255, 0.699);
+  text-align: center;
+}
+.desgin .container .box1 .text-circle {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.02;
+  background-color: #4936e3;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  gap: 5px;
+  margin: 0 auto;
+}
+.desgin .container .box1 .text-circle h3 {
+  color: white;
+  font-size: 50px;
+  margin: 0;
+  line-height: 0.5;
+}
+.desgin .container .box1 .text-circle .text {
+  color: rgba(255, 255, 255, 0.432);
+  margin: 0;
+  font: 16px;
+  line-height: 1.2;
+}
+.desgin .container .box1 .box {
+  justify-content: center;
+  text-align: center;
+}
+.desgin .container .box1 .box .text h3 {
+  font-size: 25px;
+  color: white;
+}
+.desgin .container .box1 .box .text p {
+  color: rgba(255, 255, 255, 0.644);
+  line-height: 1.5;
+  width: 220px;
+}
+.desgin .container .box2 {
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 70px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 20px 20px 0; /**/
+  margin-left: -20px;
+}
+.desgin .container .box2 .text {
+  font-size: 20px;
+}
+.desgin .container .box2 .boxs .box-one,
+.desgin .container .box2 .boxs .box-two,
+.desgin .container .box2 .boxs .box-three,
+.desgin .container .box2 .boxs .box-four {
+  display: flex;
+  flex-direction: row;
+  width: 370px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.desgin .container .box2 .boxs .box-one {
+  background-color: var(--reaction);
+}
+.desgin .container .box2 .boxs .box-two {
+  background-color: var(--memory);
+}
+.desgin .container .box2 .boxs .box-three {
+  background-color: var(--verbal);
+}
+.desgin .container .box2 .boxs .box-four {
+  background-color: var(--visual);
+}
+.desgin .container .box2 .boxs .box-one .box-design h3 {
+  color: #cc7174;
+}
+.desgin .container .box2 .boxs .box-two .box-design h3 {
+  color: #edc264;
+}
+.desgin .container .box2 .boxs .box-three .box-design h3 {
+  color: #4dc5a7;
+}
+.desgin .container .box2 .boxs .box-four .box-design h3 {
+  color: #585bc8;
+}
+.desgin .container .box2 .boxs .box-one .box-design,
+.desgin .container .box2 .boxs .box-two .box-design,
+.desgin .container .box2 .boxs .box-three .box-design,
+.desgin .container .box2 .boxs .box-four .box-design {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  width: 300px;
+}
+.desgin .container .box2 .boxs .box-one .box-design img,
+.desgin .container .box2 .boxs .box-two .box-design img,
+.desgin .container .box2 .boxs .box-three .box-design img,
+.desgin .container .box2 .boxs .box-four .box-design img {
+  width: 25px;
+  margin-right: 10px;
+}
+.desgin .container .box2 .boxs .box-one .rate,
+.desgin .container .box2 .boxs .box-two .rate,
+.desgin .container .box2 .boxs .box-three .rate,
+.desgin .container .box2 .boxs .box-four .rate {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+.desgin .container .box2 .boxs .box-one .rate span,
+.desgin .container .box2 .boxs .box-two .rate span,
+.desgin .container .box2 .boxs .box-three .rate span,
+.desgin .container .box2 .boxs .box-four .rate span {
+  color: rgb(199, 197, 197);
+}
+.desgin .container .box2 .buttom {
+  background-color: var(--buttom-befor);
+  width: 380px;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+.desgin .container .box2 .buttom h3 {
+  color: white;
+}
+.desgin .container .box2 .buttom:hover {
+  background-image: linear-gradient(to top, #412dda, #5a4ae6, #6743ff);
+}
+@media (max-width: 480px) {
+  .desgin .container {
+    display: flex;
+    flex-direction: column; /* تغيير لترتيب عمودي */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .desgin .container .box1 {
+    background-image: linear-gradient(to top, #412dda, #5a4ae6, #6743ff);
+    margin-top: 50px;
+    padding-top: 50px;
+    width: 480px;
+    height: 500px;
+    justify-items: center;
+    border-radius: 20px;
+    position: relative; /* لضبط الترتيب */
+    z-index: 1; /* ليبقى box1 فوق box2 */
+  }
+}
+@media (max-width: 480px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .desgin .container {
+    display: flex;
+    flex-direction: column; /* تغيير لترتيب عمودي */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .desgin .container .box1 {
+    background-image: linear-gradient(to top, #412dda, #5a4ae6, #6743ff);
+    margin-top: 50px;
+    padding-top: 50px;
+    width: 480px;
+    height: 500px;
+    justify-items: center;
+    border-radius: 20px;
+    position: relative; /* لضبط الترتيب */
+    z-index: 1; /* ليبقى box1 فوق box2 */
+  }
+  .desgin .container .box2 {
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+    margin-left: -20px;
+  }
+}
